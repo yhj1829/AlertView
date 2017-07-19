@@ -7,8 +7,6 @@
 //
 
 #import "YG_AlertView.h"
-#import <Masonry.h>
-#import <RRGB.h>
 
 @interface YG_AlertView ()
 
