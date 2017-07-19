@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  YG_Alert
+//
+//  Created by yhj on 2017/7/19.
+//  Copyright © 2017年 VG. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "YG_AlertView.h"
+#import <RRGB.h>
+#import <Masonry.h>
+#import "YG_TextHelper.h"
+
+// 屏幕
+#define APPW [UIScreen mainScreen].bounds.size.width
+#define APPH [UIScreen mainScreen].bounds.size.height
+
+
+// View 圆角和加边框
+#define ViewBorderRadius(View, Radius, Width, Color)\
+\
+[View.layer setCornerRadius:(Radius)];\
+[View.layer setMasksToBounds:YES];\
+[View.layer setBorderWidth:(Width)];\
+[View.layer setBorderColor:[Color CGColor]]
+
+
+// 字体大小
+#define Font_Number(a)     [UIFont fontWithName:@"Arial" size:a]
+
+#define WhiteColor             [UIColor whiteColor]
+#define ClearColor             [UIColor clearColor]
+#define BlackColor             HexRGB(0x000000)
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EDA731062C46B42E52B0F9A /* libPods-YG_Alert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17205BDC85C02A8EC2DAD610 /* libPods-YG_Alert.a */; };
+		DC7321FD1F1EF2C900BAB848 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7321FC1F1EF2C900BAB848 /* main.m */; };
+		DC7322001F1EF2C900BAB848 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7321FF1F1EF2C900BAB848 /* AppDelegate.m */; };
+		DC7322031F1EF2C900BAB848 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7322021F1EF2C900BAB848 /* ViewController.m */; };
+		DC7322061F1EF2C900BAB848 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7322041F1EF2C900BAB848 /* Main.storyboard */; };
+		DC7322081F1EF2C900BAB848 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7322071F1EF2C900BAB848 /* Assets.xcassets */; };
+		DC73220B1F1EF2C900BAB848 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7322091F1EF2C900BAB848 /* LaunchScreen.storyboard */; };
+		DC7322161F1EF2C900BAB848 /* YG_AlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7322151F1EF2C900BAB848 /* YG_AlertTests.m */; };
+		DC7322211F1EF2C900BAB848 /* YG_AlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7322201F1EF2C900BAB848 /* YG_AlertUITests.m */; };
+		DC7322391F1EF5D100BAB848 /* YG_AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7322361F1EF5D100BAB848 /* YG_AlertView.m */; };
+		DC73223A1F1EF5D100BAB848 /* YG_TextHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7322381F1EF5D100BAB848 /* YG_TextHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC7322121F1EF2C900BAB848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC7321F01F1EF2C900BAB848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC7321F71F1EF2C900BAB848;
+			remoteInfo = YG_Alert;
+		};
+		DC73221D1F1EF2C900BAB848 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC7321F01F1EF2C900BAB848 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC7321F71F1EF2C900BAB848;
+			remoteInfo = YG_Alert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17205BDC85C02A8EC2DAD610 /* libPods-YG_Alert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YG_Alert.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F4EC9F6A6BF25B65ECB419 /* Pods-YG_Alert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YG_Alert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YG_Alert/Pods-YG_Alert.debug.xcconfig"; sourceTree = "<group>"; };
+		D423800BBB8C5CD6B090F6D1 /* Pods-YG_Alert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YG_Alert.release.xcconfig"; path = "Pods/Target Support Files/Pods-YG_Alert/Pods-YG_Alert.release.xcconfig"; sourceTree = "<group>"; };
+		DC7321F81F1EF2C900BAB848 /* YG_Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YG_Alert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7321FC1F1EF2C900BAB848 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC7321FE1F1EF2C900BAB848 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC7321FF1F1EF2C900BAB848 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC7322011F1EF2C900BAB848 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC7322021F1EF2C900BAB848 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC7322051F1EF2C900BAB848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC7322071F1EF2C900BAB848 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC73220A1F1EF2C900BAB848 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC73220C1F1EF2C900BAB848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7322111F1EF2C900BAB848 /* YG_AlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YG_AlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7322151F1EF2C900BAB848 /* YG_AlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YG_AlertTests.m; sourceTree = "<group>"; };
+		DC7322171F1EF2C900BAB848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC73221C1F1EF2C900BAB848 /* YG_AlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YG_AlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7322201F1EF2C900BAB848 /* YG_AlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YG_AlertUITests.m; sourceTree = "<group>"; };
+		DC7322221F1EF2C900BAB848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7322351F1EF5D100BAB848 /* YG_AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YG_AlertView.h; sourceTree = "<group>"; };
+		DC7322361F1EF5D100BAB848 /* YG_AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YG_AlertView.m; sourceTree = "<group>"; };
+		DC7322371F1EF5D100BAB848 /* YG_TextHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YG_TextHelper.h; sourceTree = "<group>"; };
+		DC7322381F1EF5D100BAB848 /* YG_TextHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YG_TextHelper.m; sourceTree = "<group>"; };
+		DC73223B1F1EF5EF00BAB848 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7321F51F1EF2C900BAB848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDA731062C46B42E52B0F9A /* libPods-YG_Alert.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC73220E1F1EF2C900BAB848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7322191F1EF2C900BAB848 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A4D2B582E5CFF3FF2CFD089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17205BDC85C02A8EC2DAD610 /* libPods-YG_Alert.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60558626CF4012370C87B9CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54F4EC9F6A6BF25B65ECB419 /* Pods-YG_Alert.debug.xcconfig */,
+				D423800BBB8C5CD6B090F6D1 /* Pods-YG_Alert.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC7321EF1F1EF2C900BAB848 = {
+			isa = PBXGroup;
+			children = (
+				DC7321FA1F1EF2C900BAB848 /* YG_Alert */,
+				DC7322141F1EF2C900BAB848 /* YG_AlertTests */,
+				DC73221F1F1EF2C900BAB848 /* YG_AlertUITests */,
+				DC7321F91F1EF2C900BAB848 /* Products */,
+				60558626CF4012370C87B9CE /* Pods */,
+				3A4D2B582E5CFF3FF2CFD089 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7321F91F1EF2C900BAB848 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7321F81F1EF2C900BAB848 /* YG_Alert.app */,
+				DC7322111F1EF2C900BAB848 /* YG_AlertTests.xctest */,
+				DC73221C1F1EF2C900BAB848 /* YG_AlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7321FA1F1EF2C900BAB848 /* YG_Alert */ = {
+			isa = PBXGroup;
+			children = (
+				DC7322341F1EF5D100BAB848 /* YG */,
+				DC7321FE1F1EF2C900BAB848 /* AppDelegate.h */,
+				DC7321FF1F1EF2C900BAB848 /* AppDelegate.m */,
+				DC7322011F1EF2C900BAB848 /* ViewController.h */,
+				DC7322021F1EF2C900BAB848 /* ViewController.m */,
+				DC73223B1F1EF5EF00BAB848 /* PrefixHeader.pch */,
+				DC7322041F1EF2C900BAB848 /* Main.storyboard */,
+				DC7322071F1EF2C900BAB848 /* Assets.xcassets */,
+				DC7322091F1EF2C900BAB848 /* LaunchScreen.storyboard */,
+				DC73220C1F1EF2C900BAB848 /* Info.plist */,
+				DC7321FB1F1EF2C900BAB848 /* Supporting Files */,
+			);
+			path = YG_Alert;
+			sourceTree = "<group>";
+		};
+		DC7321FB1F1EF2C900BAB848 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC7321FC1F1EF2C900BAB848 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC7322141F1EF2C900BAB848 /* YG_AlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC7322151F1EF2C900BAB848 /* YG_AlertTests.m */,
+				DC7322171F1EF2C900BAB848 /* Info.plist */,
+			);
+			path = YG_AlertTests;
+			sourceTree = "<group>";
+		};
+		DC73221F1F1EF2C900BAB848 /* YG_AlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC7322201F1EF2C900BAB848 /* YG_AlertUITests.m */,
+				DC7322221F1EF2C900BAB848 /* Info.plist */,
+			);
+			path = YG_AlertUITests;
+			sourceTree = "<group>";
+		};
+		DC7322341F1EF5D100BAB848 /* YG */ = {
+			isa = PBXGroup;
+			children = (
+				DC7322351F1EF5D100BAB848 /* YG_AlertView.h */,
+				DC7322361F1EF5D100BAB848 /* YG_AlertView.m */,
+				DC7322371F1EF5D100BAB848 /* YG_TextHelper.h */,
+				DC7322381F1EF5D100BAB848 /* YG_TextHelper.m */,
+			);
+			path = YG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7321F71F1EF2C900BAB848 /* YG_Alert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7322251F1EF2C900BAB848 /* Build configuration list for PBXNativeTarget "YG_Alert" */;
+			buildPhases = (
+				DA1B26E2120A0C1CF36D3C25 /* [CP] Check Pods Manifest.lock */,
+				DC7321F41F1EF2C900BAB848 /* Sources */,
+				DC7321F51F1EF2C900BAB848 /* Frameworks */,
+				DC7321F61F1EF2C900BAB848 /* Resources */,
+				7C88E749C6603D3E0DB20B81 /* [CP] Embed Pods Frameworks */,
+				F37524EDE331BD56DECEDEA4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YG_Alert;
+			productName = YG_Alert;
+			productReference = DC7321F81F1EF2C900BAB848 /* YG_Alert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC7322101F1EF2C900BAB848 /* YG_AlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7322281F1EF2C900BAB848 /* Build configuration list for PBXNativeTarget "YG_AlertTests" */;
+			buildPhases = (
+				DC73220D1F1EF2C900BAB848 /* Sources */,
+				DC73220E1F1EF2C900BAB848 /* Frameworks */,
+				DC73220F1F1EF2C900BAB848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC7322131F1EF2C900BAB848 /* PBXTargetDependency */,
+			);
+			name = YG_AlertTests;
+			productName = YG_AlertTests;
+			productReference = DC7322111F1EF2C900BAB848 /* YG_AlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC73221B1F1EF2C900BAB848 /* YG_AlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC73222B1F1EF2C900BAB848 /* Build configuration list for PBXNativeTarget "YG_AlertUITests" */;
+			buildPhases = (
+				DC7322181F1EF2C900BAB848 /* Sources */,
+				DC7322191F1EF2C900BAB848 /* Frameworks */,
+				DC73221A1F1EF2C900BAB848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC73221E1F1EF2C900BAB848 /* PBXTargetDependency */,
+			);
+			name = YG_AlertUITests;
+			productName = YG_AlertUITests;
+			productReference = DC73221C1F1EF2C900BAB848 /* YG_AlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC7321F01F1EF2C900BAB848 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VG;
+				TargetAttributes = {
+					DC7321F71F1EF2C900BAB848 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WELMNFGZ6G;
+						ProvisioningStyle = Automatic;
+					};
+					DC7322101F1EF2C900BAB848 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WELMNFGZ6G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC7321F71F1EF2C900BAB848;
+					};
+					DC73221B1F1EF2C900BAB848 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = WELMNFGZ6G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC7321F71F1EF2C900BAB848;
+					};
+				};
+			};
+			buildConfigurationList = DC7321F31F1EF2C900BAB848 /* Build configuration list for PBXProject "YG_Alert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC7321EF1F1EF2C900BAB848;
+			productRefGroup = DC7321F91F1EF2C900BAB848 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7321F71F1EF2C900BAB848 /* YG_Alert */,
+				DC7322101F1EF2C900BAB848 /* YG_AlertTests */,
+				DC73221B1F1EF2C900BAB848 /* YG_AlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7321F61F1EF2C900BAB848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC73220B1F1EF2C900BAB848 /* LaunchScreen.storyboard in Resources */,
+				DC7322081F1EF2C900BAB848 /* Assets.xcassets in Resources */,
+				DC7322061F1EF2C900BAB848 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC73220F1F1EF2C900BAB848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC73221A1F1EF2C900BAB848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C88E749C6603D3E0DB20B81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YG_Alert/Pods-YG_Alert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1B26E2120A0C1CF36D3C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F37524EDE331BD56DECEDEA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YG_Alert/Pods-YG_Alert-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7321F41F1EF2C900BAB848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7322031F1EF2C900BAB848 /* ViewController.m in Sources */,
+				DC73223A1F1EF5D100BAB848 /* YG_TextHelper.m in Sources */,
+				DC7322001F1EF2C900BAB848 /* AppDelegate.m in Sources */,
+				DC7322391F1EF5D100BAB848 /* YG_AlertView.m in Sources */,
+				DC7321FD1F1EF2C900BAB848 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC73220D1F1EF2C900BAB848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7322161F1EF2C900BAB848 /* YG_AlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7322181F1EF2C900BAB848 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7322211F1EF2C900BAB848 /* YG_AlertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC7322131F1EF2C900BAB848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC7321F71F1EF2C900BAB848 /* YG_Alert */;
+			targetProxy = DC7322121F1EF2C900BAB848 /* PBXContainerItemProxy */;
+		};
+		DC73221E1F1EF2C900BAB848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC7321F71F1EF2C900BAB848 /* YG_Alert */;
+			targetProxy = DC73221D1F1EF2C900BAB848 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC7322041F1EF2C900BAB848 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7322051F1EF2C900BAB848 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC7322091F1EF2C900BAB848 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC73220A1F1EF2C900BAB848 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC7322231F1EF2C900BAB848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC7322241F1EF2C900BAB848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC7322261F1EF2C900BAB848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F4EC9F6A6BF25B65ECB419 /* Pods-YG_Alert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WELMNFGZ6G;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YG_Alert/PrefixHeader.pch";
+				INFOPLIST_FILE = YG_Alert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vangen.YG-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DC7322271F1EF2C900BAB848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D423800BBB8C5CD6B090F6D1 /* Pods-YG_Alert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WELMNFGZ6G;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YG_Alert/PrefixHeader.pch";
+				INFOPLIST_FILE = YG_Alert/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vangen.YG-Alert";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DC7322291F1EF2C900BAB848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WELMNFGZ6G;
+				INFOPLIST_FILE = YG_AlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vangen.YG-AlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YG_Alert.app/YG_Alert";
+			};
+			name = Debug;
+		};
+		DC73222A1F1EF2C900BAB848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WELMNFGZ6G;
+				INFOPLIST_FILE = YG_AlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vangen.YG-AlertTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YG_Alert.app/YG_Alert";
+			};
+			name = Release;
+		};
+		DC73222C1F1EF2C900BAB848 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WELMNFGZ6G;
+				INFOPLIST_FILE = YG_AlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vangen.YG-AlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YG_Alert;
+			};
+			name = Debug;
+		};
+		DC73222D1F1EF2C900BAB848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WELMNFGZ6G;
+				INFOPLIST_FILE = YG_AlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vangen.YG-AlertUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YG_Alert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7321F31F1EF2C900BAB848 /* Build configuration list for PBXProject "YG_Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7322231F1EF2C900BAB848 /* Debug */,
+				DC7322241F1EF2C900BAB848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7322251F1EF2C900BAB848 /* Build configuration list for PBXNativeTarget "YG_Alert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7322261F1EF2C900BAB848 /* Debug */,
+				DC7322271F1EF2C900BAB848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7322281F1EF2C900BAB848 /* Build configuration list for PBXNativeTarget "YG_AlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7322291F1EF2C900BAB848 /* Debug */,
+				DC73222A1F1EF2C900BAB848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC73222B1F1EF2C900BAB848 /* Build configuration list for PBXNativeTarget "YG_AlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC73222C1F1EF2C900BAB848 /* Debug */,
+				DC73222D1F1EF2C900BAB848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC7321F01F1EF2C900BAB848 /* Project object */;
+}

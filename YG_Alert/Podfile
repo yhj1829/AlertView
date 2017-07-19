@@ -1,0 +1,6 @@
+target 'YG_Alert' do
+
+pod 'Masonry'
+pod 'RGB'
+
+end
